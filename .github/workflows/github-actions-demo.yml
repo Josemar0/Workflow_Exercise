@@ -1,9 +1,11 @@
+name: testing yaml
+run-name: I am Testing yaml
 on:
   push:
     branches: [main]
 
 jobs:
-  deployment:
+   First_Job:
     runs-on: ubuntu-latest
       steps:
 	-name: compile
