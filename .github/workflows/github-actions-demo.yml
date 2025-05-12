@@ -7,8 +7,8 @@ on:
 jobs:
    First_Job:
     runs-on: ubuntu-latest
-      steps:
-	-name: compile
+    steps:
+	- name: compile
 	  run: javac -d bin src/HelloWorld.java
-	-name: Running
+	- name: Running
           run: java -cp bin helloWorld
